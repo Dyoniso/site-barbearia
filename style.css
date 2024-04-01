@@ -1,0 +1,41 @@
+.banner {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.post-img-1 {
+    background-image: url('./assets/cn-1.jpg');
+    /* Outras propriedades de background, como repetição, posição e tamanho, podem ser definidas aqui */
+    background-size: cover; /* Para ajustar a imagem para cobrir todo o elemento */
+    background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+    /* Você pode ajustar outras propriedades de acordo com suas necessidades */
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+}
+
+.cn-bg-black {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.client-img  {
+    border-radius: 50%; /* Adiciona bordas redondas à imagem */
+    width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+    object-fit: cover; /* Garante que a imagem mantenha as proporções e preencha o espaço */
+  }
